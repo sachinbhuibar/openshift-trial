@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class MyController {
 	@GetMapping("/test-docker")
 	public String getData() {
-		return "in docker tutorial project play java: version 2";
+		return "in docker tutorial project play java: version 3";
 	}
 }
 
